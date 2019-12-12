@@ -1,0 +1,32 @@
+body {
+    background-size: auto auto;
+    background-image: url(https://images.pexels.com/photos/158645/leaf-background-lines-foliage-158645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+nav {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    text-align: right;
+    color: #f54290;
+}
+.center1 {
+    grid-row: 1;
+    grid-column: 2;
+    text-align: center;
+}
+.center2 {
+    grid-row: 2;
+    grid-column: 2;
+    text-align: center;
+}
+.center3 {
+    grid-row: 3;
+    grid-column: 2;
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
